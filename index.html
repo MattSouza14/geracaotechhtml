@@ -6,7 +6,7 @@
     <title>Teste</title>
 
     <style>
-        table, th, td, tr {
+        table, th, td, tr, form {
             border: 1px solid black;
 
         }
@@ -103,10 +103,84 @@
         </table>
 
 
-    <!-- <h3>Titulo h3</h3>
-    <h4>Titulo h4</h4>
-    <h5>Titulo h5</h5>
-    <h6>Titulo h6</h6> -->
+    <h2>Apresentação Formularios</h2>
+
+
+    <h3>Formulario:</h3>
+    <form action="#">
+
+        <label for="email">Email:</label>
+
+        <br>
+
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+
+        <br>
+
+        <label for="num">Número: </label>
+
+        <br>
+
+        <input type="number" id="num" placeholder="Digite seu numero" value="10">
+
+        <br>
+
+        <label for="senha">Senha:</label>
+
+        <br>
+
+        <input type="password" id="senha" placeholder="Digite sua senha">
+
+        <br>
+
+        <label for="check">Checkbox: </label>
+
+        <br>
+
+        <input type="checkbox" id="f" name="check">
+        <label for="f">Loja Departamento Feminino</label>
+
+        <br>
+
+        <input type="checkbox" id="m" name="selecao">
+        <label for="m">Loja Departamento Masculino</label>
+
+        <br>
+
+        <label for="escolha">Radio </label>
+
+        <br>
+
+        <input type="radio" name="escolha" id="um" value="1">
+        <label for="um">JS</label>
+        <input type="radio" name="escolha" id="dois" value="2">
+        <label for="dois">CSS</label>
+        <input type="radio" name="escolha" id="tres" value="3">
+        <label for="tres">HTML</label>
+        <input type="radio" name="escolha" id="quatro" value="4">
+        <label for="quatro">React</label>
+
+        <br>
+
+        <label for="esco">Selecione: </label>
+        <select name="esco" id="esco">
+            <option value="" disabled >Selecione uma opção</option>
+            <option value="1">um</option>
+            <option value="2">dois</option>
+            <option value="3">tres</option>
+            <option value="4">quatro</option>
+        </select>
+
+        <br>
+
+        <label for="textoLongo">Campos de texto</label>
+       <textarea name="textoLongo" id="textoLongo" cols="40" rows="10" placeholder="amo o hiran"></textarea>
+
+
+
+
+
+    </form>
 
 
 

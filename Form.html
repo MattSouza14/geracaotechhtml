@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <style>
+    form {
+            border: 1px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <label for="candidato">Nome do candidato: </label>
+        <br>
+        <input type="text" name="candidato" id="candidato" placeholder="Digite o seu nome">
+        <br>
+        <label for="email">Email do candidato: </label>
+        <br>
+        <input type="email" name="email" id="email" placeholder="Exemplo@email.com">
+        <br>
+        <label for="age">Idade</label>
+        <br>
+        <input type="number" name="age" id="age" placeholder="Informe sua idade">
+        <br>
+        <label for="fone">Telefone</label>
+        <br>
+        <input type="text" name="fone" id="fone" placeholder="(85)9-9999.9999">
+        <br>
+        <label for="">Empresas disponiveis: </label>
+        <input type="radio" name="empresa" value="1" id="um">
+        <label for="um" >Fortaleza</label>
+        <input type="radio" name="empresa" value="2" id="dois">
+        <label for="dois">Recife</label>
+        <input type="radio" name="empresa" value="3" id="tres">
+        <label for="tres">Salvador</label>
+        <br>
+        <label for="hora">Horarios disponiveis</label>
+        <input type="checkbox">
+        <label for="hora">Manha</label>
+        <input type="checkbox">
+        <label for="hora">Tarde</label>
+        <input type="checkbox">
+        <label for="hora">Noite</label>
+
+
+        <br>
+        <label for="linguagem">Escolha sua linguagem:</label>
+        <select name="linguagem" id="linguagem">
+            <option value="1" disabled>Escolha uma opção</option>
+            <option value="2">Java</option>
+            <option value="3">Python</option>
+            <option value="4">NodeJs</option>
+            <option value="5">PHP</option>
+            <option value="6">C++</option>
+
+        </select>
+        <br>
+        <label for="sobre">Fale um pouco sobre você</label>
+        <br>
+        <textarea name="sobre" id="sobre" cols="30" rows="10"></textarea>
+
+
+
+    </form>
+    
+</body>
+</html>
