@@ -14,96 +14,103 @@
 </head>
 <body>
 
-    <h1>Aula 03</h1>
-    <h2>Exemplos de utilização das tags</h2>
+    <header>
+        <img src="https://geracaotech.iel-ce.org.br/images/logo-geracao-tech.png" alt="Logo da geração Tech ">
+        <h1>Geração Tech-Desenvolvimento Front-End</h1>
+        <nav>
+       
+            <a href="#listas">Tags de Listas</a>
+            <a href="#tabelas">Tags de tabelas</a>
+            <a href="#formularios">Tags de Formularios</a>
+            <a href="">Tags de Divisões</a>
+        </nav>
+    </header>
 
-    <p>Descrição das listas</p>
+    <main>
+        <h1>Exemplos de utilização das tags</h1>
 
-
-    <h3>Lista Ordenadas</h3>
+        <section id="listas">
+            <h2>Descrição das listas</h2>
     
-    <ol type="A">
-            <li>Coisa</li>
-            <li>Coisinha</li>
-            <li>Coisas</li>
-            <li>Ultima coisa</li>
-        </ol>
-    <h3>Lista não Ordenadas</h3>
-        
-    <ul>
-            <li>Coisa não Ordenada</li>
-            <li>Segunda coisa não Ordenada</li>
-            <li>Coisinha não Ordenada</li>
-            <li>Coisas não Ordenada</li>
-
-        </ul>
-
-        <h3>Continuação das listar ordenadas</h3>
-        
-        <ol type="A" start="5">
-            <li>Continuação da coisa</li>
-            <li>Continuação da coisinha</li>
-            <li>Continuação das coisas</li>
-
-        </ol>
-
-        <h3>Listas de definição</h3>
-
-        <dl>
-            <dt>Café</dt>
-            <dd>Bebida quente demais</dd>
-        </dl>
-
-
-        <h3>Quebra de linha</h3>
-    
-        <p>Dori me <br>
-            Interimo, adapare <br>
-            Dori me <br>
-            Ameno, Ameno
-        </p>
-
-
-        <table>
-           
-                <th>Coisas 1</th>
-                <th>Coisinha 2</th>
-                <th>Coisas 3</th>
-           
-            <tr>
-                <td>Info Linha1 Col1</td> 
-                <td>Info Linha1 Col2</td>
-                <td>Info Linha1 Col3</td>
-            </tr>
-            <tr>
-                <td>Info Linha2 Col1</td> 
-                <td>Info Linha2 Col2</td>
-                <td>Info Linha2 Col3</td>
-            </tr>
-            <tr>
-                <td>Info Linha3 Col1</td> 
-                <td>Info Linha3 Col2</td>
-                <td>Info Linha3 Col3</td>
-            </tr>
-            <tr>
-                <td colspan="2">Info Linha3 Col1/2</td>
-                <td>Info Linha3 Col3</td>
-            </tr>
-
-            <tr>
-                <td rowspan="2">Info Linha4/5 Col1</td>
-                <td>Info Linha 4 Col 2</td>
-                <td>Info Linha 4 Col 3</td>
-            </tr>
+            <h3>Lista Ordenadas</h3>
             
-            <tr>
-                <td>Info Linha5 Col2</td>
-                <td>Info Linha5 Col3</td>
-            </tr>
-        </table>
+            <ol type="A">
+                    <li>Coisa</li>
+                    <li>Coisinha</li>
+                    <li>Coisas</li>
+                    <li>Ultima coisa</li>
+                </ol>
+            <h3>Lista não Ordenadas</h3>
+                
+            <ul>
+                    <li>Coisa não Ordenada</li>
+                    <li>Segunda coisa não Ordenada</li>
+                    <li>Coisinha não Ordenada</li>
+                    <li>Coisas não Ordenada</li>
+        
+                </ul>
+        
+                <h3>Continuação das listar ordenadas</h3>
+                
+                <ol type="A" start="5">
+                    <li>Continuação da coisa</li>
+                    <li>Continuação da coisinha</li>
+                    <li>Continuação das coisas</li>
+        
+                </ol>
+        
+                <h3>Listas de definição</h3>
+        
+                <dl>
+                    <dt>Café</dt>
+                    <dd>Bebida quente demais</dd>
+                </dl>
+                <h3>Quebra de linha</h3>
+        </section>
+        <section id="tabelas">
+            <h2>Tabaelas</h2>
 
+            <table>
+               
+                    <th>Coisas 1</th>
+                    <th>Coisinha 2</th>
+                    <th>Coisas 3</th>
+               
+                <tr>
+                    <td>Info Linha1 Col1</td> 
+                    <td>Info Linha1 Col2</td>
+                    <td>Info Linha1 Col3</td>
+                </tr>
+                <tr>
+                    <td>Info Linha2 Col1</td> 
+                    <td>Info Linha2 Col2</td>
+                    <td>Info Linha2 Col3</td>
+                </tr>
+                <tr>
+                    <td>Info Linha3 Col1</td> 
+                    <td>Info Linha3 Col2</td>
+                    <td>Info Linha3 Col3</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Info Linha3 Col1/2</td>
+                    <td>Info Linha3 Col3</td>
+                </tr>
+    
+                <tr>
+                    <td rowspan="2">Info Linha4/5 Col1</td>
+                    <td>Info Linha 4 Col 2</td>
+                    <td>Info Linha 4 Col 3</td>
+                </tr>
+                
+                <tr>
+                    <td>Info Linha5 Col2</td>
+                    <td>Info Linha5 Col3</td>
+                </tr>
+            </table>
+        </section>
 
-    <h2>Apresentação Formularios</h2>
+        <section id="formularios">
+            <h2>Apresentação Formularios</h2>
 
 
     <h3>Formulario:</h3>
@@ -177,14 +184,34 @@
        <textarea name="textoLongo" id="textoLongo" cols="40" rows="10" placeholder="amo o hiran"></textarea>
 
 
-
-
-
     </form>
+       
+
+        </section>
+    
+    </main>
+
+    <footer>
+
+    </footer>
+    
 
 
+        
 
-
+<!-- Tags Semanticas
+    <header></header>
+    <nav></nav>
+    <main></main>
+    <section></section>
+    <article></article>
+    <footer></footer> -->
+           
+    <!-- <p>Dori me <br>
+         Interimo, adapare <br>
+         Dori me <br>
+         Ameno, Ameno
+    </p> -->
     
 </body>
 </html>
