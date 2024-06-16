@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    border: 1px solid green;
+    background-color: darkgray;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+   
+}
+header nav a {
+    text-decoration: none;
+    color: rgb(10, 136, 246);
+
+    font-size: 20px;
+}
+ 
+main {
+    background-color: lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main h1 {
+    margin: 10px auto 10px;
+}
+
+section {
+    text-align: center;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100px;   
+    height: 100px;
+    
+}
+
+span {
+    font-weight: bold;
+}
+
+
+table, th, td, tr, form {
+    border: 1px solid black;
+
+}
