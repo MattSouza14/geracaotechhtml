@@ -64,7 +64,7 @@ table, th, td, tr, form {
 .container {
     display: flex;
     flex-direction: row;
-   justify-content: space-between; /*Eixo X*/
+   justify-content: space-evenly; /*Eixo X*/
     /* align-items: end; Eixo Y */
     flex-wrap: wrap-reverse;
     align-content: stretch;
